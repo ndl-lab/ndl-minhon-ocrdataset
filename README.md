@@ -146,6 +146,27 @@ v2
 いずれもみんなで翻刻データから提供されているメタデータを加工整形したもので、カンマ区切りのcsv形式です。データセットのzipファイル内にも同梱しています。
 
 ### v1のメタデータ情報
+ダウンロード：[v1_metadata.csv](./v1_metadata.csv)
+
+左列から、
+
+* Book ID: 資料ID（みんなで翻刻における当該資料の管理ID）
+* Book Name：資料タイトル
+* Arrtibution：資料画像の所蔵機関情報
+* File ID(Minna De Honkoku)：みんなで翻刻データにおける当該翻刻データファイル名
+* File ID(NDL)：みんなで翻刻データにおける画像ファイル名（※v1は翻刻データ名と画像ファイル名が一致しないため、本データセットでは画像ファイル名で統一している）
+* Image URL：画像のURL（フルサイズ）
+* GitHub URL みんなで翻刻データのGitHubリポジトリ(https://github.com/yuta1984/honkoku-data)における翻刻テキストの格納場所
+
+の情報を含みます。下記に例を抜粋して示します。
+|Book ID|Book Name|Attribution|File ID(Minna De Honkoku)|File ID(NDL)|Image URL|GitHub URL|
+|:----|:----|:----|:----|:----|:----|:----|
+|L000001|地震年代記|東京大学地震研究所図書室|001|000005725|http://wwweic.eri.u-tokyo.ac.jp/dl/cont/01/G0000002erilib/000/005/000005725.jpg|https://github.com/yuta1984/honkoku-data/tree/master/v1/L000001|
+|L000001|地震年代記|東京大学地震研究所図書室|002|000005726|http://wwweic.eri.u-tokyo.ac.jp/dl/cont/01/G0000002erilib/000/005/000005726.jpg|https://github.com/yuta1984/honkoku-data/tree/master/v1/L000001|
+|L000001|地震年代記|東京大学地震研究所図書室|003|000005727|http://wwweic.eri.u-tokyo.ac.jp/dl/cont/01/G0000002erilib/000/005/000005727.jpg|https://github.com/yuta1984/honkoku-data/tree/master/v1/L000001|
+|L000001|地震年代記|東京大学地震研究所図書室|004|000005728|http://wwweic.eri.u-tokyo.ac.jp/dl/cont/01/G0000002erilib/000/005/000005728.jpg|https://github.com/yuta1984/honkoku-data/tree/master/v1/L000001|
+
+
 
 ### v2のメタデータ情報
 
@@ -157,10 +178,11 @@ v2
 * Book ID: 資料ID（みんなで翻刻における当該資料の管理ID）
 * Book Name：資料タイトル
 * Arrtibution：資料画像の所蔵機関情報
+* File ID(Minna De Honkoku)：当該翻刻データ及び画像ファイル名
 * Image URL：画像のURL（フルサイズ）
 * GitHub URL みんなで翻刻データのGitHubリポジトリ(https://github.com/yuta1984/honkoku-data)における翻刻テキストの格納場所
 
-の情報を含みます。下記に例を抜粋しています。
+の情報を含みます。下記に例を抜粋して示します。
 
 |Project ID|Book ID|Book Name|Arrtibution|File ID(Minna De Honkoku)|Image URL|GitHub URL|
 |:----|:----|:----|:----|:----|:----|:----|
