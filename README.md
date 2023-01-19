@@ -6,7 +6,7 @@ CC BY-SA 4.0ライセンスで提供されている[みんなで翻刻データ]
 
 ## データセットのURL
 
-https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset.zip
+https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset.zip (30MB)
 
 ## データセットの説明
 
@@ -28,7 +28,72 @@ https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset.zip
 v1とv2を分けて作成しています。
 
 ### 構造化情報（json形式）
+
+次に挙げる例は、
+
+晋米齋玉粒 作 ほか『化物世帯氣質』,春松軒西宮新六,文政3 [1820]. 国立国会図書館デジタルコレクション https://dl.ndl.go.jp/pid/10301810 (参照 2023-01-19)
+
+の4コマ目(https://dl.ndl.go.jp/pid/10301810/1/4
+)
+
+についてみんなで翻刻データ(https://github.com/yuta1984/honkoku-data/blob/master/v2/kusazoushi/9D61092EC482751E687C188D44347857/004.txt
+)を構造化した結果の一部です。
+
+
 ```
+[
+  {
+    "boundingBox": [ #<- みんなで翻刻データの翻訳対象画像上の四隅の座標が格納される
+      [
+        3805,
+        631
+      ],
+      [
+        3805,
+        2891
+      ],
+      [
+        3930,
+        631
+      ],
+      [
+        3930,
+        2891
+      ]
+    ],
+    "id": 8,
+    "isVertical": "true",
+    "text": "はなしで聞ました。さうなさるがよからうと。相談きはまり", #<- みんなで翻刻データの1行単位のテキストデータが格納される
+    "isTextline": "true",
+    "confidence": 1
+  },
+  {
+    "boundingBox": [
+      [
+        3653,
+        629
+      ],
+      [
+        3653,
+        2887
+      ],
+      [
+        3810,
+        629
+      ],
+      [
+        3810,
+        2887
+      ]
+    ],
+    "id": 2,
+    "isVertical": "true",
+    "text": "入道は。支度とゝのへ今金時方へと尋ね行を。夢現",
+    "isTextline": "true",
+    "confidence": 1
+  },
+・・・
+
 
 ```
 
