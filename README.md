@@ -143,10 +143,34 @@ v2
 ```
 
 ## メタデータの情報
+いずれもみんなで翻刻データから提供されているメタデータを加工整形したもので、カンマ区切りのcsv形式です。データセットのzipファイル内にも同梱しています。
 
 ### v1のメタデータ情報
 
 ### v2のメタデータ情報
+
+ダウンロード：[v2_metadata.csv](./v2_metadata.csv)
+
+左列から、
+
+* Project ID:プロジェクトID（みんなで翻刻における当該プロジェクトの管理ID）
+* Book ID: 資料ID（みんなで翻刻における当該資料の管理ID）
+* Book Name：資料タイトル
+* Arrtibution：資料画像の所蔵機関情報
+* Image URL：画像のURL（フルサイズ）
+* GitHub URL みんなで翻刻データのGitHubリポジトリ(https://github.com/yuta1984/honkoku-data)における翻刻テキストの格納場所
+
+の情報を含みます。下記に例を抜粋しています。
+
+|Project ID|Book ID|Book Name|Arrtibution|File ID(Minna De Honkoku)|Image URL|GitHub URL|
+|:----|:----|:----|:----|:----|:----|:----|
+|kusazoushi|9D61092EC482751E687C188D44347857|化物世帯氣質|国立国会図書館 National Diet Library|001|https://www.dl.ndl.go.jp/api/iiif/10301810/R0000001/full/full/0/default.jpg|https://github.com/yuta1984/honkoku-data/tree/master/v2/kusazoushi/9D61092EC482751E687C188D44347857|
+|kusazoushi|9D61092EC482751E687C188D44347857|化物世帯氣質|国立国会図書館 National Diet Library|002|https://www.dl.ndl.go.jp/api/iiif/10301810/R0000002/full/full/0/default.jpg|https://github.com/yuta1984/honkoku-data/tree/master/v2/kusazoushi/9D61092EC482751E687C188D44347857|
+|kusazoushi|9D61092EC482751E687C188D44347857|化物世帯氣質|国立国会図書館 National Diet Library|003|https://www.dl.ndl.go.jp/api/iiif/10301810/R0000003/full/full/0/default.jpg|https://github.com/yuta1984/honkoku-data/tree/master/v2/kusazoushi/9D61092EC482751E687C188D44347857|
+|kusazoushi|9D61092EC482751E687C188D44347857|化物世帯氣質|国立国会図書館 National Diet Library|004|https://www.dl.ndl.go.jp/api/iiif/10301810/R0000004/full/full/0/default.jpg|https://github.com/yuta1984/honkoku-data/tree/master/v2/kusazoushi/9D61092EC482751E687C188D44347857|
+
+
+
 
 ## 利用方法
 
