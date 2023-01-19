@@ -8,6 +8,7 @@ CC BY-SA 4.0ライセンスで提供されている[みんなで翻刻データ]
 
 https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset.zip (30MB)
 
+
 ## データセットの説明
 
 みんなで翻刻データは、歴史資料の市民参加型翻刻プラットフォーム[みんなで翻刻](https://honkoku.org/)上で翻刻されたテキストデータです。
@@ -26,6 +27,8 @@ https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset.zip (30MB)
 ## データセットの構造情報
 みんなで翻刻のプラットフォームのリニューアルにより、リニューアル前（v1）とリニューアル後（v2）でみんなで翻刻データ側の提供メタデータの形式が異なるため、
 v1とv2を分けて作成しています。
+
+2023年1月現在の数量は、v1について4,688画像から66,537行分、v2について24,055画像から285,869行分の合計352,406行分です。
 
 ### 構造化情報（json形式）
 
