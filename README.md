@@ -1,6 +1,6 @@
 # NDL古典籍OCR学習用データセット（みんなで翻刻加工データ）
 
-国立国会図書館が開発した、古典籍資料を対象としたOCR処理プログラム（[NDL古典籍OCR](https://github.com/ndl-lab/ndlkotenocr_cli)）の教師データとして利用できるOCR学習用データセットです。
+国立国会図書館が開発した、古典籍資料を対象としたOCR処理プログラム（[NDL古典籍OCR](https://github.com/ndl-lab/ndlkotenocr_cli)）の教師データとして構築したOCR学習用データセットです。
 
 CC BY-SA 4.0ライセンスで提供されている、[みんなで翻刻データ](https://github.com/yuta1984/honkoku-data)を機械学習用に加工しています。
 
