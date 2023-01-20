@@ -1,8 +1,9 @@
 # NDL古典籍OCR学習用データセット（みんなで翻刻加工データ）
 
-CC BY-SA 4.0ライセンスで提供されている[みんなで翻刻データ](https://github.com/yuta1984/honkoku-data)を加工することで
+国立国会図書館が開発した、古典籍資料を対象としたOCR処理プログラム（[NDL古典籍OCR](https://github.com/ndl-lab/ndlkotenocr_cli)）の教師データとして利用できるOCR学習用データセットです。
 
-国立国会図書館が構築した、古典籍資料を対象としたOCR処理プログラムの教師データとして利用できるOCR学習用データセットです。
+CC BY-SA 4.0ライセンスで提供されている、[みんなで翻刻データ](https://github.com/yuta1984/honkoku-data)を機械学習用に加工しています。
+
 
 ## データセットのURL
 
@@ -17,7 +18,7 @@ https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset.zip (30MB)
 
 このみんなで翻刻データは、資料画像中に含まれる文字列の1行ごとに改行を挿入した、座標情報を持たないテキストファイルとして提供されており、そのままではOCRの学習用データセットとして活用することは困難です。
 
-国立国会図書館では、2021年度に[令和3年度OCR処理プログラム研究開発事業](https://lab.ndl.go.jp/data_set/ocr/r3_software/)を実施し、
+国立国会図書館は、2021年度に[令和3年度OCR処理プログラム研究開発事業](https://lab.ndl.go.jp/data_set/ocr/r3_software/)を実施し、
 その成果物である明治期以降に出版された活字のデジタル化資料をテキスト化することのできるOCR処理プログラムを、
 [NDLOCR](https://github.com/ndl-lab/ndlocr_cli)と称してCC BYライセンスで公開しています。
 
