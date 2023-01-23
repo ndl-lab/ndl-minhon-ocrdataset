@@ -160,7 +160,8 @@ v2
 * File ID(Minna De Honkoku)：みんなで翻刻データにおける当該翻刻データファイル名
 * File ID(NDL)：みんなで翻刻データにおける画像ファイル名（※v1は翻刻データ名と画像ファイル名が一致しないため、本データセットでは画像ファイル名で統一している）
 * Image URL：画像のURL（フルサイズ）
-* GitHub URL みんなで翻刻データのGitHubリポジトリ(https://github.com/yuta1984/honkoku-data)における翻刻テキストの格納場所
+* GitHub URL みんなで翻刻データのGitHubリポジトリ(https://github.com/yuta1984/honkoku-data
+)における翻刻テキストの格納場所
 
 の情報を含みます。下記に例を抜粋して示します。
 |Book ID|Book Name|Attribution|File ID(Minna De Honkoku)|File ID(NDL)|Image URL|GitHub URL|
@@ -184,7 +185,8 @@ v2
 * Arrtibution：資料画像の所蔵機関情報
 * File ID(Minna De Honkoku)：当該翻刻データ及び画像ファイル名
 * Image URL：画像のURL（フルサイズ）
-* GitHub URL みんなで翻刻データのGitHubリポジトリ(https://github.com/yuta1984/honkoku-data)における翻刻テキストの格納場所
+* GitHub URL みんなで翻刻データのGitHubリポジトリ(https://github.com/yuta1984/honkoku-data
+)における翻刻テキストの格納場所
 
 の情報を含みます。下記に例を抜粋して示します。
 
