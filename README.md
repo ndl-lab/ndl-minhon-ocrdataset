@@ -6,6 +6,7 @@ CC BY-SA 4.0ライセンスで提供されている、[みんなで翻刻デー�
 
 
 ## データセットのURL
+https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset.zip (30MB)
 
 https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset.zip (30MB)
 
@@ -29,7 +30,7 @@ https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset.zip (30MB)
 みんなで翻刻のプラットフォームのリニューアルにより、リニューアル前（v1）とリニューアル後（v2）でみんなで翻刻データ側の提供メタデータの形式が異なるため、
 v1とv2を分けて作成しています。
 
-2023年1月現在の数量は、v1について4,688画像から66,537行分、v2について24,055画像から285,869行分の合計352,406行分です。
+2023年2月現在の数量は、v1について4,688画像から66,537行分、v2について28,134画像から456,746行分の合計523,283行分です。
 
 ### 構造化情報（json形式）
 
