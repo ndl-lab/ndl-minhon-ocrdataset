@@ -6,7 +6,7 @@ CC BY-SA 4.0ライセンスで提供されている、[みんなで翻刻デー�
 
 
 ## データセットのURL
-https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset_20240207.zip (35MB)
+https://lab.ndl.go.jp/dataset/ndlkotensekiocr/ndl-minhon-ocrdataset_20240207.zip (45MB)
 
 2024年2月まで公開していたデータセットは[2023ver](https://github.com/ndl-lab/ndl-minhon-ocrdataset/tree/2023ver)ブランチを参照してください。※上記のデータセットと重複があります。
 
